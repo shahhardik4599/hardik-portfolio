@@ -115,9 +115,9 @@ export function PrimeHeader() {
       <div className="bg-[#1a242f] px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-8">
-            <Link href="/" className="flex items-center space-x-2">
+            {/* <Link href="/" className="flex items-center space-x-2">
               <div className="text-[#00a8e1] font-bold text-lg">prime video</div>
-            </Link>
+            </Link> */}
 
             <nav className="hidden lg:flex items-center space-x-6 text-sm">
               <Link href="/" className="hover:text-[#00a8e1] transition-colors">
