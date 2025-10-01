@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 export function HeroBanner() {
   const handleViewResume = () => {
     // Open resume in new tab - you can replace this URL with your actual resume
-    window.open("/resume.pdf", "_blank")
+    window.open("https://drive.google.com/file/d/1ayXpXWdH_SlZ5f3kBwaKXyjromBmGEIk/view?usp=sharing", "_blank")
   }
 
   const handleMoreInfo = () => {
@@ -54,7 +54,7 @@ export function HeroBanner() {
 
             <p className="text-base text-gray-400 mb-6 leading-relaxed">
               Applied Materials ML Intern | Santa Clara University MS Student | Expert in AI/ML, React, Next.js, and
-              Cloud Computing. Building intelligent solutions with 3+ years of experience.
+              Cloud Computing. Building intelligent solutions with 2+ years of experience.
             </p>
 
             <div className="flex items-center space-x-4">
@@ -116,7 +116,7 @@ export function HeroBanner() {
               </div>
               <span>2024</span>
               <span className="border border-gray-500 px-2 py-1 text-xs">HD</span>
-              <span>Available in: React, Python, Java, TypeScript</span>
+              {/* <span>Available in: React, Python, Java, TypeScript</span> */}
             </div>
           </div>
         </div>

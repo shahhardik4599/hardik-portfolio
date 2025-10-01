@@ -16,7 +16,7 @@ export default function Home() {
       <div className="py-8 space-y-8 w-full">
         <ContentRow title="Featured Projects" items={portfolioData.featuredProjects} seeMoreHref="/projects" />
 
-        <ContentRow title="Popular now" items={portfolioData.popularNow} seeMoreHref="/skills" />
+        {/* <ContentRow title="Popular now" items={portfolioData.popularNow} seeMoreHref="/skills" /> */}
 
         <ContentRow title="Work Experience" items={portfolioData.workExperience} seeMoreHref="/experience" />
 

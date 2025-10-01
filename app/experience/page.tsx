@@ -4,7 +4,7 @@ import { CheckCircle, Package, Truck, MapPin } from "lucide-react"
 export default function ExperiencePage() {
   const experiences = [
     {
-      company: "Applied Materials",
+      company: "Applied Materials, Santa Clara, CA, USA",
       role: "Machine Learning Intern",
       period: "Jan 2025 – June 2025",
       location: "Santa Clara, CA",
@@ -16,11 +16,11 @@ export default function ExperiencePage() {
       ],
     },
     {
-      company: "Santa Clara University",
+      company: "Santa Clara University, Santa Clara, CA, USA",
       role: "Teaching Assistant",
       period: "Sep 2024 – Mar 2025",
       location: "Santa Clara, CA",
-      status: "out-for-delivery",
+      status: "delivered",
       achievements: [
         "Supported 50+ students in Java OOP and Cloud Computing",
         "Hands-on AWS services training (Lambda, S3, EC2, CloudWatch)",
@@ -28,7 +28,7 @@ export default function ExperiencePage() {
       ],
     },
     {
-      company: "True Sparrow",
+      company: "True Sparrow, Pune, India",
       role: "Software Engineer",
       period: "Jan 2022 – Nov 2023",
       location: "Pune, India",
@@ -83,9 +83,9 @@ export default function ExperiencePage() {
               <span className="bg-green-600 text-white px-3 py-1 rounded text-sm font-medium">
                 ✓ 3 Experiences Delivered
               </span>
-              <span className="bg-[#00a8e1] text-white px-3 py-1 rounded text-sm font-medium">
+              {/* <span className="bg-[#00a8e1] text-white px-3 py-1 rounded text-sm font-medium">
                 → 1 Currently Active
-              </span>
+              </span> */}
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@ export default function ExperiencePage() {
                     {getStatusText(exp.status)}
                   </div>
                   <p className="text-gray-400 text-sm">{exp.period}</p>
-                  <p className="text-gray-400 text-sm">{exp.location}</p>
+                  {/* <p className="text-gray-400 text-sm">{exp.location}</p> */}
                 </div>
               </div>
 

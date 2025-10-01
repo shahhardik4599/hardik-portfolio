@@ -74,10 +74,10 @@ export function ProjectInfoModal({ isOpen, onClose, project }: ProjectInfoModalP
             <p className="text-gray-300 leading-relaxed">{project.description}</p>
 
             {/* Metadata */}
-            <div className="flex items-center space-x-4 text-sm text-gray-400">
+            {/* <div className="flex items-center space-x-4 text-sm text-gray-400">
               {project.year && <span>Year: {project.year}</span>}
               {project.duration && <span>Duration: {project.duration}</span>}
-            </div>
+            </div> */}
 
             {/* Tags */}
             {project.tags && project.tags.length > 0 && (

@@ -65,11 +65,11 @@ export function ContentRow({ title, items, seeMoreHref }: ContentRowProps) {
         <h2 className="text-white text-xl font-semibold hover:text-[#00a8e1] transition-colors cursor-pointer">
           {title}
         </h2>
-        {seeMoreHref && (
+        {/* {seeMoreHref && (
           <Button variant="link" className="text-[#00a8e1] hover:text-[#0086b3] p-0 text-sm">
-            See more →
+            Slide to see more →
           </Button>
-        )}
+        )} */}
       </div>
 
       {/* Scrollable content */}

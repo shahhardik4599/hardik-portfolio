@@ -19,7 +19,8 @@ export default function EducationPage() {
         "Natural Language Processing",
       ],
       milestones: [
-        "Completed core programming foundations",
+        "Completed core programming and business foundations",
+        "Twice made Deans List for academic excellence",
         "Mastered cloud computing with AWS",
         "Advanced AI/ML specialization in progress",
       ],
@@ -176,7 +177,7 @@ export default function EducationPage() {
               <div className="text-gray-300 text-sm">Average GPA</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-[#00a8e1]">12+</div>
+              <div className="text-2xl font-bold text-[#00a8e1]">25+</div>
               <div className="text-gray-300 text-sm">Core CS Courses</div>
             </div>
             <div className="text-center">

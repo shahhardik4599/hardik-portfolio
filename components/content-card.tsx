@@ -88,7 +88,7 @@ export function ContentCard({
                 src={imageUrl || "/placeholder.svg?height=180&width=320&query=project preview"}
                 alt={title}
                 fill
-                className="object-cover"
+                className="object-cover object-center"
               />
             </video>
           ) : (
@@ -96,7 +96,7 @@ export function ContentCard({
               src={imageUrl || "/placeholder.svg?height=180&width=320&query=project preview"}
               alt={title}
               fill
-              className={`object-cover transition-transform duration-300 ${isHovered ? "scale-105" : ""}`}
+              className={`object-cover object-center transition-transform duration-300 ${isHovered ? "scale-105" : ""}`}
               onError={(e) => {
                 const target = e.target as HTMLImageElement
                 target.src = `/placeholder.svg?height=180&width=320&query=${encodeURIComponent(title + " preview")}`
@@ -155,10 +155,10 @@ export function ContentCard({
           <p className="text-gray-400 text-xs line-clamp-2">{description}</p>
 
           {/* Metadata */}
-          <div className="flex items-center space-x-2 text-xs text-gray-500">
+          {/* <div className="flex items-center space-x-2 text-xs text-gray-500">
             {year && <span>{year}</span>}
             {duration && <span>• {duration}</span>}
-          </div>
+          </div> */}
 
           {/* Tags */}
           {tags && tags.length > 0 && (

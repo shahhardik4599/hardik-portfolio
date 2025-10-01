@@ -69,7 +69,7 @@ export default function SkillsPage() {
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative max-w-7xl mx-auto px-4 z-10">
           <div className="max-w-2xl">
-            <h1 className="text-5xl font-bold text-white mb-4">Technical Skills Library</h1>
+            <h1 className="text-5xl font-bold text-white mb-4">Technical Skills</h1>
             <p className="text-xl text-gray-300 mb-6">
               Explore my comprehensive collection of programming languages, frameworks, and technologies.
             </p>

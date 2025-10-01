@@ -29,8 +29,16 @@ export default function ProjectsPage() {
     <main className="min-h-screen bg-[#0f171e]">
       <PrimeHeader />
 
-      <div className="relative h-[60vh] bg-gradient-to-r from-[#0f171e] via-[#1a2332] to-[#0f171e] flex items-center">
-        <div className="absolute inset-0 bg-black/40"></div>
+      <div className="relative h-[60vh] bg-gradient-to-r from-[#0f171e] via-[#1a2332] flex items-center to-transparent">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('/projectsSection.png')`,
+          }}
+        />
+        <div className="absolute inset-0 from-black via-black/50 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-24 md:h-32 bg-gradient-to-t from-[#0f171e] to-transparent" />
+  
         <div className="relative w-full px-4 z-10">
           <div className="max-w-2xl ml-8">
             <h1 className="text-5xl font-bold text-white mb-4">
@@ -43,7 +51,7 @@ export default function ProjectsPage() {
             </p>
             <div className="flex items-center gap-4">
               <span className="bg-[#00a8e1] text-white px-3 py-1 rounded text-sm font-medium">Prime Developer</span>
-              <span className="text-gray-300">3+ Years Experience</span>
+              <span className="text-gray-300">2+ Years Experience</span>
             </div>
           </div>
         </div>
@@ -64,11 +72,14 @@ export default function ProjectsPage() {
                 <ContentCard
                   title={project.title}
                   subtitle={project.subtitle}
-                  image={project.imageUrl}
+                  imageUrl={project.imageUrl}
                   rating={project.rating}
                   badge={project.badge}
                   year={project.year}
                   duration={project.duration}
+                  href={project.href}
+                  description={project.description}
+                  tags={project.tags}
                 />
                 <div className="mt-4 p-4 bg-[#1a2332] rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <h3 className="text-white font-semibold mb-2">{project.title}</h3>
