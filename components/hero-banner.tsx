@@ -50,11 +50,11 @@ export function HeroBanner() {
 
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">HARDIK PRAKASHBHAI SHAH</h1>
 
-            <p className="text-lg text-gray-300 mb-2">Machine Learning Engineer & Full-Stack Developer</p>
+            <p className="text-lg text-white mb-2">Machine Learning Engineer & Full-Stack Developer</p>
 
-            <p className="text-base text-gray-400 mb-6 leading-relaxed">
-              Applied Materials ML Intern | Santa Clara University MS Student | Expert in AI/ML, React, Next.js, and
-              Cloud Computing. Building intelligent solutions with 2+ years of experience.
+            <p className="text-base text-white font-bold mb-6 leading-relaxed">
+              ML Intern @ Applied Materials | Santa Clara University MS in Information Systems Student | Expert in AI/ML, and Software Development. 
+              Building intelligent solutions with 2+ years of experience.
             </p>
 
             <div className="flex items-center space-x-4">

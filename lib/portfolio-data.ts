@@ -13,6 +13,10 @@ export const portfolioData = {
       duration: "3 months",
       tags: ["React.js", "LangChain", "OpenAI", "Python"],
       href: "https://jazzy-flan-794253.netlify.app/",
+      highlights: [
+        "Ingestion pipeline for PDF/DOCX/TXT with OCR pre-processing.",
+        "Chat-driven field completion that outputs ready-to-download DOCX/PDF.",
+      ]
     },
     {
       id: "social-platform",
@@ -27,6 +31,12 @@ export const portfolioData = {
       duration: "5 months",
       tags: ["Blockchain", "NFT", "React", "Web3"],
       href: "https://github.com/NFTorNOT",
+      highlights: [
+        "Daily AI-image themes with community voting; top pick highlighted as 'NFT of the day'.",
+        "Lens Protocol sign-in and collection mechanics to support creators.",
+        "Integrated Lens Protocol, Lens GraphQL, and wallet connectors (MetaMask, Coinbase).",
+        "Collaborated across product/design to align token-gated UX.",
+      ]
     },
     {
       id: "collaboration-tool",
@@ -39,8 +49,14 @@ export const portfolioData = {
       rating: 4.5,
       year: "2023",
       duration: "6 months",
-      tags: ["AWS Chime", "WebRTC", "Node.js", "React"],
+      tags: ["AWS Chime", "Node.js", "React"],
       href: "https://thursday.social",
+      highlights: [
+        "Modular user/meeting APIs; legacy refactor with unit tests for maintainability.",
+        "9+ small-group mixers with randomized rounds (Charades, Trivia, Would You Rather, 2 Truths & a Lie, etc.)",
+        "AI-enabled Doodle Race, where players draw while an on-screen model guesses sketches in real time."
+
+      ]
     },
     {
       id: "api-assistant",
@@ -55,6 +71,11 @@ export const portfolioData = {
       duration: "2 months",
       tags: ["GPT-4", "Webpack", "EJS", "LlamaCpp"],
       href: "https://github.com/shahhardik4599/api-doc-fe",
+      highlights: [
+        "Natural-language queries over API docs with retrieval and summarization.",
+        "Privacy-first option using local models (GPT4All/LlamaCpp).",
+        "Configurable indexing pipeline for new specs and changelogs."
+      ]
     },
     {
       id: "task-scheduler",
@@ -69,6 +90,11 @@ export const portfolioData = {
       duration: "4 months",
       tags: ["Kubernetes", "Docker", "Hadoop", "Spark"],
       href: "",
+      highlights: [
+        "Queue-backed orchestration (e.g., RabbitMQ) for fair scheduling and back-pressure.",
+        "Post-processing analytics in Spark reduced E2E latency by ~20% and boosted throughput ~30%.",
+        "Health checks, autoscaling, and canary rollouts for safer deploys."
+      ]
     },
     {
       id: "maticrobots-site",
@@ -83,6 +109,11 @@ export const portfolioData = {
       duration: "4 months",
       tags: ["Next.js", "React", "TypeScript", "Tailwind", "TanStack Query"],
       href: "https://maticrobots.com",
+      highlights: [
+        "Server-aware data fetching with Suspense and caching.",
+        "Bundle and image optimizations; CLS/LCP tuning.",
+        "Content workflow enabling rapid non-engineer updates."
+      ]
     },
     {
       id: "truesparrow-site",
@@ -97,8 +128,13 @@ export const portfolioData = {
       duration: "6 months",
       tags: ["Next.js", "React", "Node.js", "CI/CD", "Testing"],
       href: "https://truesparrow.com",
-    },
-      ],
+      highlights: [
+        "Added GraphQL/REST integrations and data-layer consistency checks.",
+        "Hardened CI with GitHub Actions, Docker builds, and health probes.",
+        "Improved maintainability via design-system components and tests."
+      ]
+    }
+  ],
 
   workExperience: [
     {
@@ -113,7 +149,7 @@ export const portfolioData = {
       year: "2025",
       duration: "6 months",
       tags: ["Python", "ML", "RAG", "Tableau"],
-      href: "/experience/applied-materials",
+      href: ""
     },
     {
       id: "scu-ta",
@@ -127,7 +163,7 @@ export const portfolioData = {
       year: "2024",
       duration: "6 months",
       tags: ["Java", "AWS", "Teaching", "Cloud"],
-      href: "/experience/scu-ta",
+      href: ""
     },
     {
       id: "true-sparrow",
@@ -141,8 +177,8 @@ export const portfolioData = {
       year: "2022-2023",
       duration: "2 years",
       tags: ["React", "Next.js", "Node.js", "AWS"],
-      href: "/experience/true-sparrow",
-    },
+      href: ""
+    }
   ],
 
   technicalSkills: [
@@ -157,7 +193,7 @@ export const portfolioData = {
       year: "2018-2025",
       duration: "7 years",
       tags: ["C/C++", "Java", "Python", "JavaScript"],
-      href: "/skills/programming",
+      href: ""
     },
     {
       id: "web-tech",
@@ -171,7 +207,7 @@ export const portfolioData = {
       year: "2020-2025",
       duration: "5 years",
       tags: ["React", "Next.js", "Node.js", "GraphQL"],
-      href: "/skills/web-tech",
+      href: ""
     },
     {
       id: "ai-ml",
@@ -184,7 +220,7 @@ export const portfolioData = {
       year: "2023-2025",
       duration: "2 years",
       tags: ["LLMs", "LangChain", "RAG", "ML"],
-      href: "/skills/ai-ml",
+      href: ""
     },
     {
       id: "cloud-infra",
@@ -197,7 +233,7 @@ export const portfolioData = {
       year: "2021-2025",
       duration: "4 years",
       tags: ["AWS", "Docker", "Kubernetes", "Terraform"],
-      href: "/skills/cloud-infra",
+      href: ""
     },
     {
       id: "databases",
@@ -210,8 +246,8 @@ export const portfolioData = {
       year: "2019-2025",
       duration: "6 years",
       tags: ["SQL", "MongoDB", "PostgreSQL", "MySQL"],
-      href: "/skills/databases",
-    },
+      href: ""
+    }
   ],
 
   recentWork: [
@@ -227,7 +263,7 @@ export const portfolioData = {
       year: "2025",
       duration: "Current",
       tags: ["Python", "ML", "Data Mining"],
-      href: "/projects/ml-models",
+      href: ""
     },
     {
       id: "rag-pipeline",
@@ -240,7 +276,7 @@ export const portfolioData = {
       year: "2025",
       duration: "Current",
       tags: ["RAG", "OpenAI", "Vector DB"],
-      href: "/projects/rag-pipeline",
+      href: ""
     },
     {
       id: "tableau-dashboards",
@@ -253,7 +289,7 @@ export const portfolioData = {
       year: "2025",
       duration: "Current",
       tags: ["Tableau", "Python", "Analytics"],
-      href: "/projects/tableau-dashboards",
+      href: ""
     },
     {
       id: "ci-cd-pipeline",
@@ -266,8 +302,8 @@ export const portfolioData = {
       year: "2023",
       duration: "Completed",
       tags: ["GitHub Actions", "Docker", "AWS"],
-      href: "/projects/ci-cd-pipeline",
-    },
+      href: ""
+    }
   ],
 
   education: [
@@ -282,7 +318,7 @@ export const portfolioData = {
       year: "2024-2025",
       duration: "2 years",
       tags: ["MS", "Information Systems", "AI/ML"],
-      href: "/education",
+      href: "/education"
     },
     {
       id: "gtu-be",
@@ -295,8 +331,8 @@ export const portfolioData = {
       year: "2018-2022",
       duration: "4 years",
       tags: ["BE", "Computer Science", "Engineering"],
-      href: "/education",
-    },
+      href: "/education"
+    }
   ],
 
   popularNow: [
@@ -311,7 +347,7 @@ export const portfolioData = {
       year: "2023-2025",
       duration: "Ongoing",
       tags: ["Next.js", "React", "TypeScript"],
-      href: "/skills/nextjs",
+      href: ""
     },
     {
       id: "python-automation",
@@ -324,7 +360,7 @@ export const portfolioData = {
       year: "2020-2025",
       duration: "5 years",
       tags: ["Python", "Automation", "Data"],
-      href: "/skills/python-automation",
+      href: ""
     },
     {
       id: "aws-services",
@@ -337,7 +373,7 @@ export const portfolioData = {
       year: "2022-2025",
       duration: "3 years",
       tags: ["AWS", "Lambda", "S3", "EC2"],
-      href: "/skills/aws-services",
-    },
-  ],
-}
+      href: ""
+    }
+  ]
+};

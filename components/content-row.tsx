@@ -17,6 +17,7 @@ interface ContentItem {
   duration?: string
   tags?: string[]
   href?: string
+  highlights?: string[]
 }
 
 interface ContentRowProps {

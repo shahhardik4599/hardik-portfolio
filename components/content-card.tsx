@@ -19,6 +19,7 @@ interface ContentCardProps {
   duration?: string
   tags?: string[]
   href?: string
+  highlights?: string[]
 }
 
 export function ContentCard({
@@ -32,6 +33,7 @@ export function ContentCard({
   duration,
   tags,
   href = "#",
+  highlights = [],
 }: ContentCardProps) {
   const [isHovered, setIsHovered] = useState(false)
   const [showModal, setShowModal] = useState(false)
@@ -67,6 +69,7 @@ export function ContentCard({
     duration,
     tags,
     href,
+    highlights,  
   }
 
   return (
@@ -153,6 +156,16 @@ export function ContentCard({
           <h3 className="text-white font-semibold text-sm line-clamp-1">{title}</h3>
           {subtitle && <p className="text-gray-400 text-xs line-clamp-1">{subtitle}</p>}
           <p className="text-gray-400 text-xs line-clamp-2">{description}</p>
+
+          {/* {highlights?.length > 0 && (
+            <ul className="mt-2 list-disc pl-4 space-y-1">
+              {highlights.slice(0, 3).map((h, i) => (
+                <li key={i} className="text-gray-400 text-xs">
+                  {h}
+                </li>
+              ))}
+            </ul>
+          )} */}
 
           {/* Metadata */}
           {/* <div className="flex items-center space-x-2 text-xs text-gray-500">
