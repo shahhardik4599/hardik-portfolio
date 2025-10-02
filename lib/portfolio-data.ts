@@ -349,19 +349,19 @@ export const portfolioData = {
       tags: ["Next.js", "React", "TypeScript"],
       href: ""
     },
-    {
-      id: "python-automation",
-      title: "Python Automation",
-      subtitle: "Scripting & Data Processing",
-      description: "Automated workflows and data processing scripts using Python with pandas and scikit-learn.",
-      imageUrl: "/python-automation-scripts-and-data-processing.jpg",
-      badge: "POPULAR",
-      rating: 4.7,
-      year: "2020-2025",
-      duration: "5 years",
-      tags: ["Python", "Automation", "Data"],
-      href: ""
-    },
+    // {
+    //   id: "python-automation",
+    //   title: "Python Automation",
+    //   subtitle: "Scripting & Data Processing",
+    //   description: "Automated workflows and data processing scripts using Python with pandas and scikit-learn.",
+    //   imageUrl: "/python-automation-scripts-and-data-processing.jpg",
+    //   badge: "POPULAR",
+    //   rating: 4.7,
+    //   year: "2020-2025",
+    //   duration: "5 years",
+    //   tags: ["Python", "Automation", "Data"],
+    //   href: ""
+    // },
     {
       id: "aws-services",
       title: "AWS Cloud Services",

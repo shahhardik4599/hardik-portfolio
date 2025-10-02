@@ -74,7 +74,8 @@ export function PrimeHeader() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search projects, skills, experience..."
-                className="rounded-l-md rounded-r-none border-0 bg-white text-black"
+                className="rounded-l-md rounded-r-none border-0  text-white
+                bg-[#18222f] caret-white placeholder:text-gray-400 focus-visible:ring-2 focus-visible:ring-[#00a8e1] focus-visible:ring-offset-0"
               />
               <Button
                 type="submit"
