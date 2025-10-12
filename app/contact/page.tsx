@@ -8,14 +8,15 @@ export default function ContactPage() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [contact, setContact] = useState('')   
   const [autoFillMsg, setAutoFillMsg] = useState(true)
 
   useEffect(() => {
     if (!autoFillMsg) return
     if (name || email) {
-      setMessage(`Hello Hardik,\n\nBest regards,\n${name || ''} \n${email || ''}`)
+      setMessage(`Hello Hardik,\n\nBest regards,${name ? '\n' : ''}${name || ''} ${email ? '\n' : ''}${email || ''} ${contact ? '\n' : ''}${contact || ''}`)
     }
-  }, [name, email, autoFillMsg])
+  }, [name, email, autoFillMsg, contact])
 
   const contactInfo = [
     {
@@ -57,6 +58,7 @@ export default function ContactPage() {
     const email = String(fd.get("email") || "").trim()
     const subject = String(fd.get("subject") || "").trim() || `Portfolio contact from ${name || "Anonymous"}`
     const message = String(fd.get("message") || "").trim()
+    const contactInfo = String(fd.get("contact") || "").trim() 
 
     // Build email body
     const body =
@@ -171,6 +173,17 @@ export default function ContactPage() {
                   className="w-full bg-[#1a2332] border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:border-[#00a8e1] focus:outline-none transition-colors"
                   placeholder="your.email@example.com"
                   onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+              <div>
+                <label htmlFor="contact" className="block text-white font-medium mb-2">
+                  Contact Info <span className="text-gray-400 font-normal">(optional)</span>
+                </label>
+                <input
+                  type="text" id="contact" name="contact"
+                  className="w-full bg-[#1a2332] border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:border-[#00a8e1] focus:outline-none transition-colors"
+                  placeholder="Add Phone numer(eg. +1-xxx-xxx-xxxx)"
+                  value={contact} onChange={(e) => setContact(e.target.value)}
                 />
               </div>
 
