@@ -176,7 +176,7 @@ export function ContentCard({
           {/* Tags */}
           {tags && tags.length > 0 && (
             <div className="flex flex-wrap gap-1 mt-2">
-              {tags.slice(0, 3).map((tag, index) => (
+              {tags.map((tag, index) => (
                 <span key={index} className="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">
                   {tag}
                 </span>

@@ -28,14 +28,10 @@ export function ProjectInfoModal({ isOpen, onClose, project }: ProjectInfoModalP
 
   const handleViewProject = () => {
     if (project.href && project.href !== "#") {
-      window.open(project.href, "_blank")
+      window.location.href = project.href
     }
     onClose()
   }
-
-  // useEffect(() => {
-  //   document.body.style.overflow = isOpen ? "hidden" : ""
-  // }, [isOpen])
 
   return (
     <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
@@ -122,7 +118,7 @@ export function ProjectInfoModal({ isOpen, onClose, project }: ProjectInfoModalP
                 className="bg-[#00a8e1] hover:bg-[#0086b3] text-white"
                 disabled={!project.href || project.href === "#"}
               >
-                View Project
+                View more
               </Button>
               <Button
                 variant="outline"

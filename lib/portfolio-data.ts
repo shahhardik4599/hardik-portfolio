@@ -138,18 +138,32 @@ export const portfolioData = {
 
   workExperience: [
     {
+      id: "snap-life-sciences",
+      title: "Snap Life Sciences",
+      subtitle: "AI Research Scientist Intern",
+      description:
+        "Built the S3→SQL pipeline and WAC normalization that delivered +35% clean rows and faster analytics for pricing models using Python, Pandas, and PostgreSQL.",
+      imageUrl: "/AIResearchScientics.png",
+      badge: "AI Research",
+      rating: 5.0,
+      year: "2025",
+      duration: "Ongoing",
+      tags: ["Python","AI", "PostgreSQL", "ML", "SQL","AWS"],
+      href: "/experience"
+    },
+    {
       id: "applied-materials",
       title: "Applied Materials",
       subtitle: "Machine Learning Intern",
       description:
         "Engineered AI/ML models on purchase-history data, applied association-rule mining, and built RAG pipeline with 2x revenue impact.",
       imageUrl: "/applied-materials-semiconductor-manufacturing-faci.jpg",
-      badge: "CURRENT",
-      rating: 5.0,
+      badge: "Machine Learning",
+      rating: 4.9,
       year: "2025",
       duration: "6 months",
       tags: ["Python", "ML", "RAG", "Tableau"],
-      href: ""
+      href: "experience"
     },
     {
       id: "scu-ta",
@@ -163,7 +177,7 @@ export const portfolioData = {
       year: "2024",
       duration: "6 months",
       tags: ["Java", "AWS", "Teaching", "Cloud"],
-      href: ""
+      href: "experience"
     },
     {
       id: "true-sparrow",
@@ -173,11 +187,11 @@ export const portfolioData = {
         "Shipped full-stack features using React, Next.js, Node.js. Built real-time collaboration tools and CI/CD pipelines.",
       imageUrl: "/modern-software-development-office-with-multiple-m.jpg",
       badge: "FULL-STACK",
-      rating: 4.8,
+      rating: 5,
       year: "2022-2023",
       duration: "2 years",
       tags: ["React", "Next.js", "Node.js", "AWS"],
-      href: ""
+      href: "experience"
     }
   ],
 

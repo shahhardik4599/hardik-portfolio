@@ -4,6 +4,18 @@ import { CheckCircle, Package, Truck, MapPin } from "lucide-react"
 export default function ExperiencePage() {
   const experiences = [
     {
+      company: "Snap Life Sciences, Santa Clara, CA, USA",
+      role: "AI Research Scientist Intern",
+      period: "September 2025 – Present",
+      location: "Santa Clara, CA",
+      status: "out-for-delivery",
+      achievements: [
+        "Built ETL from AWS S3 to a relational store; improved feature- availability latency from raw files to analytics tables",
+        "Defining data quality checks and transformations on drug pricing(WAC) data; increased usable rows by 35 % after normalization",
+        "Partnered with stakeholders to specify logging / fields needed for downstream modeling and reporting",
+      ],
+    },
+    {
       company: "Applied Materials, Santa Clara, CA, USA",
       role: "Machine Learning Intern",
       period: "Jan 2025 – June 2025",
@@ -83,9 +95,9 @@ export default function ExperiencePage() {
               <span className="bg-green-600 text-white px-3 py-1 rounded text-sm font-medium">
                 ✓ 3 Experiences Delivered
               </span>
-              {/* <span className="bg-[#00a8e1] text-white px-3 py-1 rounded text-sm font-medium">
+              <span className="bg-[#00a8e1] text-white px-3 py-1 rounded text-sm font-medium">
                 → 1 Currently Active
-              </span> */}
+              </span>
             </div>
           </div>
         </div>
@@ -104,7 +116,7 @@ export default function ExperiencePage() {
                   </div>
                 </div>
                 <div className="text-right">
-                  <div className="bg-[#232f3e] text-white px-3 py-1 rounded text-sm font-medium mb-2">
+                  <div className="bg-[#232f3e] text-white px-3 py-1 rounded text-sm font-medium mb-2 text-center">
                     {getStatusText(exp.status)}
                   </div>
                   <p className="text-gray-400 text-sm">{exp.period}</p>
