@@ -134,7 +134,7 @@ export default function ContactPage() {
               <h3 className="text-xl font-bold text-white mb-4">Download Resume</h3>
               <p className="text-gray-300 mb-4">Get a detailed overview of my experience, skills, and achievements.</p>
               <a
-                href="https://drive.google.com/uc?export=download&id=1ayXpXWdH_SlZ5f3kBwaKXyjromBmGEIk"
+                href="https://drive.google.com/uc?export=download&id=1OwEzrIka0X3-WnZbt2dEVbJ7SSk7Jdgr"
                 className="bg-[#00a8e1] hover:bg-[#0086b3] text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 transition-colors inline-flex"
                 target="_blank"  // opens a tab if needed
                 rel="noopener noreferrer"

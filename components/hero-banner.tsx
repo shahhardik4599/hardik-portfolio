@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 export function HeroBanner() {
   const handleViewResume = () => {
     // Open resume in new tab - you can replace this URL with your actual resume
-    window.open("https://drive.google.com/file/d/1ayXpXWdH_SlZ5f3kBwaKXyjromBmGEIk/view?usp=sharing", "_blank")
+    window.open("https://drive.google.com/file/d/1OwEzrIka0X3-WnZbt2dEVbJ7SSk7Jdgr/view?usp=sharing", "_blank")
   }
 
   const handleMoreInfo = () => {

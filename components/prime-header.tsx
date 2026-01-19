@@ -47,7 +47,7 @@ export function PrimeHeader() {
 
   const handleProfile = () => {
     // Open resume or navigate to about section
-    window.open("https://drive.google.com/uc?export=download&id=1ayXpXWdH_SlZ5f3kBwaKXyjromBmGEIk")
+    window.open("https://drive.google.com/uc?export=download&id=1OwEzrIka0X3-WnZbt2dEVbJ7SSk7Jdgr")
   }
 
   return (
